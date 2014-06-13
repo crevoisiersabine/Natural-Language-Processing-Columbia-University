@@ -1,4 +1,4 @@
-__author__ = 'Sabine'
+__author__ = 'Sabine and Fraser'
 
 import pprint
 
@@ -86,12 +86,4 @@ def viterbi(k, word_array, empty_array):
             empty_array.append("I-GENE")
             return b
 
-
-# array = []
-# word_array = ["the", "gene", "is", "deuterium"]
-# print viterbi(4, word_array, array)
-# print array
-
 functionViterbi("gene.dev")
-
-# functionQ("I-GENE","*", "*")
